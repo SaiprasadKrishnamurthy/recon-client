@@ -1,5 +1,6 @@
 import { connect, StringCodec } from "../node_modules/nats.ws/lib/src/mod.js";
-import { JsonToTable } from "react-json-to-table";
+import JSONViewer from 'react-json-viewer';
+
 
 import React, { useState, useCallback, useEffect } from 'react';
 
@@ -25,8 +26,7 @@ const Results = (props) => {
   return (
     <div>
       <ul>
-        <JsonToTable json={messages} />
-
+        <JSONViewer json={messages} />
       </ul>
     </div>
   );

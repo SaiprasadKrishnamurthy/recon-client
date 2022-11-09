@@ -11,6 +11,7 @@
     "react-dom": "next",
     "react-json-table": "^0.1.1",
     "react-json-to-table": "^0.1.7",
+    "react-json-viewer": "^3.0.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-use-websocket": "^3.0.0",
